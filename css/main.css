@@ -170,7 +170,7 @@ input[type=text], select, textarea {
     width: 100%;
 }
 
-.meiyin {
+.aboutus {
     width: 120%
 }
 
@@ -216,6 +216,7 @@ input[type=text], select, textarea {
 }
 
 .hero__text { 
+  font-family: 'OpenSans';
   font-weight: 400;
   font-size: 1.5rem;
   position:  absolute;

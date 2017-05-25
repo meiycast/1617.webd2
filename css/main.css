@@ -2,27 +2,244 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: f4f6f9;
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+.navbar {
+    background-color: rgba(46,46,46,0.8);
+    position: fixed;
+    z-index: 3;
+    height: 60px;
+    
 }
 
-.intro {
-  width: 90vw;
+.navlogo {
+    width: 120%;
+    display:block;
+    margin:auto;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+.button {
+  display: inline-block;
+  padding: 8px 60px;
+  background:  #A0222E;
+  text-decoration: none;
+  color: #FFF;
+  margin-top: 20px;
+}
+.button:hover {
+  color: #A0222E;
+  background: #C1C6D9;
+  transition:0.3s ease;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+.button:active {
+  color: #A0222E;
+  background: #C1C6D9;
+}
+
+.about1 {
+    background: #2E2E2E;
+    height: 300px;
+    padding: 15px 15px;
+    color: white;
+}
+
+.about2 {
+    background: #A0222E;
+    height: 300px;
+    padding: 15px 15px;  
+    color: white; 
+}
+
+.aboutpic {
+    height: 300px;
+    padding: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #F9F9F9;
+}
+
+.footer {
+   bottom:0;
+   width:100%;
+   height:250px;
+   background:#2E2E2E;
+   margin-top: 50px;
+   text-align: center;
+   padding-top: 20px;
+   color: #C1C6D9;
+}
+
+.footer a{
+    text-decoration: none
+}
+
+#lf {
+    width: 8%;
+
+}
+
+.iconsocial {
+    height: 15px;
+
+}
+
+
+
+.test {
+    padding: 0;
+    line-height: 0;
+}
+
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgba(84, 12, 17, 0.46);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.text:hover {
+  color: #C2C6D9;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.herologo {
+    width: 100%;
+}
+
+.miku1 {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.miku2 {
+    width: 100%;
+}
+
+.meiyin {
+    width: 120%
+}
+
+.services {
+    background-color: #C2C6D9;
+}
+
+
+.hero {
+  background: #CCC url('https://c2.staticflickr.com/8/7657/17201126391_04d40a433e_h.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  550px;
+  position: relative;
+}
+
+.hero2 {
+  background: #CCC url('https://c2.staticflickr.com/6/5265/29821410280_79ce3da257_k.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  290px;
+  position: relative;
+}
+
+.hero3 {
+  background: #CCC url('https://c2.staticflickr.com/6/5584/14539039031_b6db8d5928_b.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  290px;
+  position: relative;
+}
+
+.hero4 {
+  background: #CCC url('https://c2.staticflickr.com/8/7550/16300427331_624e20a026_h.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  290px;
+  position: relative;
+}
+
+.hero__text { 
+  font-weight: 400;
+  font-size: 1.5rem;
+  position:  absolute;
+  color: #A0222E;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+.hero__title { 
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.hero__button {
+  display: inline-block;
+  padding: 12px 20px;
+  background:  #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 20px;
+}
+.hero__button:hover {
+  color: #333;
+  background: #FFF;
 }

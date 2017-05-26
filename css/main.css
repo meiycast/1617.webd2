@@ -180,7 +180,7 @@ input[type=text], select, textarea {
 
 
 .hero {
-  background: #CCC url('https://c2.staticflickr.com/8/7657/17201126391_04d40a433e_h.jpg') no-repeat;
+  background: #CCC url('../assets/images/hero.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -189,7 +189,7 @@ input[type=text], select, textarea {
 }
 
 .hero2 {
-  background: #CCC url('https://c2.staticflickr.com/6/5265/29821410280_79ce3da257_k.jpg') no-repeat;
+  background: #CCC url('../assets/images/hero2.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -198,7 +198,7 @@ input[type=text], select, textarea {
 }
 
 .hero3 {
-  background: #CCC url('https://c2.staticflickr.com/6/5584/14539039031_b6db8d5928_b.jpg') no-repeat;
+  background: #CCC url('../assets/images/hero3.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -207,7 +207,7 @@ input[type=text], select, textarea {
 }
 
 .hero4 {
-  background: #CCC url('https://c2.staticflickr.com/8/7550/16300427331_624e20a026_h.jpg') no-repeat;
+  background: #CCC url('../assets/images/hero4.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
